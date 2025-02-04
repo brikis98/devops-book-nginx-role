@@ -2,9 +2,9 @@
 
 This repo contains a simple Ansible role designed to deploy Nginx as a load balancer. This role does the following:
 
-* Installs Nginx.
-* Configures Nginx to listen on port 80.
-* Configures Nginx to proxy requests to the `/` URL to the servers you pass in via the `servers` variable. 
+* Install Nginx. This step only works on Linux servers that support `yum` (e.g., Amazon Linux).
+* Configure Nginx to listen on port 80.
+* Configure Nginx to proxy requests to the `/` URL to the servers you pass in via the `servers` variable. 
  
 This is sample code from the book and blog post series [_Fundamentals of DevOps and Software 
 Delivery_](https://www.fundamentals-of-devops.com) by Yevgeniy Brikman. Note that the vast majority of the sample
