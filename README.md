@@ -22,7 +22,8 @@ Create a `requirements.txt` file with the following contents, replacing `<VERSIO
 [releases page](https://github.com/brikis98/devops-book-nginx-role/releases):
 
 ```yml
-- src: https://github.com/brikis98/devops-book-nginx-role
+- name: nginx
+  src: https://github.com/brikis98/devops-book-nginx-role
   version: <VERSION>
 ```
 
