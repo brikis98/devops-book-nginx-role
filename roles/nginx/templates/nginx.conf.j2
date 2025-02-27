@@ -19,7 +19,7 @@ http {
 
     upstream backend {
         {% for server in servers %}
-          {{ server }}
+          server {{ server }};
         {% endfor %}
     }
 
